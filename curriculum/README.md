@@ -1,5 +1,4 @@
-<img src="http://i.imgur.com/UzC7XPe.png" alt="Helio Training" width="226" align="center"/> 
-v.0.1
+<img src="http://i.imgur.com/UzC7XPe.png" alt="Helio Training" width="226" align="center"/> v.0.1
 
 ---------------
 # Competencies
