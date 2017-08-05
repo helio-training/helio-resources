@@ -1,4 +1,4 @@
-<img src="https://heliotraining.com/wp-content/uploads/2016/10/heliologoreverseLG_logosm.png" alt="Helio Training" width="226" align="center"/> 
+<img src="http://i.imgur.com/UzC7XPe.png" alt="Helio Training" width="226" align="center"/> 
 v.0.1
 
 ---------------
