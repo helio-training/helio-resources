@@ -89,8 +89,7 @@ git clone https://github.com/mbadolato/iTerm2-Color-Schemes
 ```
 2. This installs some of the most popular fonts for development patched for powerline. Which will make our terminal a little more useful later on.
 
-####
-####oh-my-zsh
+#### oh-my-zsh
 
 Oh my zsh is a great starter package for ZSH. It comes with some great plugins and makes getting started with ZSH a breeze.
 
@@ -101,7 +100,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```
 2. Your shell should change automatically to zsh when the install finishes. It won't look like the example quite yet.
 
-####oh-my-zsh Plugins
+#### oh-my-zsh Plugins
 
 Since ZSH is extensible we can install a couple plugins to enhance
 our experience.
@@ -112,7 +111,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
 
-####oh-my-zsh Spaceship Theme
+#### oh-my-zsh Spaceship Theme
 
 1. Copy the contents [this file](https://raw.githubusercontent.com/denysdovhan/spaceship-zsh-theme/master/spaceship.zsh) with Cmd+C
 2. Open up iTerm and type the following:
@@ -129,7 +128,7 @@ simply press `escape`. Once we're in the `default` editor mode we
 can type `:wq` which instructs vim to `write`(w) and then `quit`(q)
 the `:` is simply how we pass instructions to Vim.
 
-####oh-my-zsh Configuration
+#### oh-my-zsh Configuration
 All of the configuration for ZSH lives in one file called `.zshrc`
 by default when we installed `oh-my-zsh` it created this for us in
 our home directory `~/.zshrc`. This file allows us to customize
@@ -143,7 +142,7 @@ vim ~/.zshrc
 2. Edit the file like the image below (theme and plugin settings):
 ![ZSH-Config](http://i.imgur.com/fHNFjDY.gif)
 
-####iTerm Configuration
+#### iTerm Configuration
 Now we're almost ready to take a gander at our new terminal, but
 before we run the command needed to run our changes we need
 to change some settings in iTerm for them to display right.
@@ -167,7 +166,7 @@ boost to the thing we'll be staring at for some time.
 and open the `schemes` folder within it. Pick a theme you like.
     - The example on this page uses `One Dark` which isn't included in this repo. A great starting scheme I'd recommend though is `Tomorrow Night`
     
-####Make It So
+#### Make It So
 Alright that's it for configuring and installing, now how do we see 
 our changes? Whenever you make changes to the `~/.zshrc` file
 you won't see any difference until you run `source ~/.zshrc` which
